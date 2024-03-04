@@ -4,6 +4,8 @@ import googleIconImg from  "../assets/images/google-icon.svg";
 
 import "../styles/auth.scss"
 
+import { Button } from "../components/Button/Button";
+
 export function Home() {
     return(
         <div id="page-auth">
@@ -25,9 +27,9 @@ export function Home() {
                             type="text" 
                             placeholder="Digite o código da sala"
                         />
-                        <button type="submit">
+                        <Button type="submit">
                             Entrar na sala
-                        </button>
+                        </Button>
                     </form>
                 </div>
             </main>
